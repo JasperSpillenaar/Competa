@@ -1,1 +1,3 @@
 # Competa
+
+By: Jasper Spillenaar
