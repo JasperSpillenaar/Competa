@@ -1,1 +1,51 @@
+.slideshow__photos {
+    width: 800px;
+    height: 500%;
+    display: block;
+    border: 6px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+.button--left {
+    width: 3%;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+}
+.button--right {
+    width: 3%;
+    position: absolute;
+    right: 17%;
+    top: 40%;
 
+}
+.button--play {
+    width: 3%;
+    position: absolute;
+    left: 50%;
+    margin-top: 3px;
+}
+.button--pause {
+    width: 3%;
+    position: absolute;
+    left: 46.5%;
+    margin-top: 3px;
+}
+body {
+    background: url("../Img/images/background.jpg");
+    background-repeat: no-repeat;
+}
+button{
+    background: transparent;
+    border: transparent;
+    outline: none
+}
+button:hover{
+    background: dimgrey;
+    border: 2px solid black;
+}
+button:active{
+    background: grey;
+    border: 2px solid black;
+}
