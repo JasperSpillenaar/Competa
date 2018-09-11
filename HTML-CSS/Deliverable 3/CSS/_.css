@@ -1,1 +1,34 @@
+.slideshow__photos{
+    width: 800px;
+    height: 500%;
+    display: block;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+.button--left{
+    width: 3%;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+}
+.button--right{
+    width: 3%;
+    position: absolute;
+    right: 17%;
+    top: 40%;
 
+}
+.button--play{
+    width: 2%;
+    position: absolute;
+    left: 50%;
+    margin-top: 3px;
+}
+.button--pause{
+    width: 2%;
+    position: absolute;
+    left: 47.5%;
+    margin-top: 3px;
+}
