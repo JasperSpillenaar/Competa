@@ -1,7 +1,7 @@
 const image = new Array("IMG/images/1.jpg", "IMG/images/2.jpg", "IMG/images/3.jpg");
 let imageNumber = 0;
 const imageLength = image.length - 1;
-let interval = setInterval(function() {changeImage(1)}, 2000);
+let interval = setInterval(() => {changeImage(1)}, 2000);
 
 const buttonLeft = document.querySelector(".button--left");
 console.log(buttonLeft);
@@ -15,11 +15,11 @@ console.log(buttonPlay);
 const buttonPause = document.querySelector(".button--pause");
 console.log(buttonPause);
 
-buttonLeft.addEventListener("click", function(){changeImage(-1)} );
-buttonRight.addEventListener("click", function(){changeImage(1)} );
+buttonLeft.addEventListener("click",() => {changeImage(-1)} );
+buttonRight.addEventListener("click", () => {changeImage(1)} );
 buttonPlay.addEventListener("click", play);
 buttonPause.addEventListener("click", pause);
-document.addEventListener("keydown", function(){
+document.addEventListener("keydown", event => {
     const image = document.getElementById('x');
 
     if (event.keyCode == 37) {
@@ -53,7 +53,7 @@ function changeImage(num) {
 // Play
 function play() {
     if (!interval){
-        interval = setInterval(function() {changeImage(1)}, 2000);
+        interval = setInterval(() => {changeImage(1)}, 2000);
     }
 }
 // Pause
