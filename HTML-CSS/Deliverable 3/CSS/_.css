@@ -47,4 +47,5 @@ button:hover{
 }
 button:active{
     background: grey;
+    border: 2px solid black;
 }

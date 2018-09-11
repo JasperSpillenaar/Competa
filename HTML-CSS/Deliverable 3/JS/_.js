@@ -54,7 +54,7 @@ function changeImage(num) {
 // Play
 function play() {
     if (!interval){
-        interval = setInterval(function() {changeImage(1)}, 1000);
+        interval = setInterval(function() {changeImage(1)}, 2000);
     }
 }
 // Pause
