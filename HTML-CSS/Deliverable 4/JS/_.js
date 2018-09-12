@@ -20,7 +20,6 @@ buttonRight.addEventListener("click", () => {changeImage(1)} );
 buttonPlay.addEventListener("click", play);
 buttonPause.addEventListener("click", pause);
 document.addEventListener("keydown", event => {
-    const image = document.getElementById('x');
 
     if (event.keyCode == 37) {
         changeImage(-1);

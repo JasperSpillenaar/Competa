@@ -1,0 +1,28 @@
+{
+  "name": "team-custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vijay421/team-custom.git"
+  },
+  "author": "team-custom members",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vijay421/team-custom/issues"
+  },
+  "homepage": "https://github.com/Vijay421/team-custom#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.3.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {}
+}
